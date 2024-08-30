@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD7FCC922C7ED4AF009B3BAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FCC912C7ED4AF009B3BAD /* SettingsView.swift */; };
+		CD7FCC942C7ED619009B3BAD /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FCC932C7ED619009B3BAD /* SettingsItem.swift */; };
+		CD7FCC962C813735009B3BAD /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7FCC952C813735009B3BAD /* Basket.swift */; };
 		CDEE21A82C7914980066409B /* OrderMyMealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21A72C7914980066409B /* OrderMyMealApp.swift */; };
 		CDEE21AA2C7914980066409B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21A92C7914980066409B /* ContentView.swift */; };
-		CDEE21AC2C7914980066409B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21AB2C7914980066409B /* Item.swift */; };
+		CDEE21AC2C7914980066409B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21AB2C7914980066409B /* Order.swift */; };
 		CDEE21AE2C7914980066409B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEE21AD2C7914980066409B /* Assets.xcassets */; };
 		CDEE21B12C7914980066409B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEE21B02C7914980066409B /* Preview Assets.xcassets */; };
 		CDEE21BB2C7914990066409B /* OrderMyMealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21BA2C7914990066409B /* OrderMyMealTests.swift */; };
 		CDEE21C52C7914990066409B /* OrderMyMealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21C42C7914990066409B /* OrderMyMealUITests.swift */; };
 		CDEE21C72C7914990066409B /* OrderMyMealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21C62C7914990066409B /* OrderMyMealUITestsLaunchTests.swift */; };
+		CDEE21D42C7A60CC0066409B /* MealCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21D32C7A60CC0066409B /* MealCategoryItem.swift */; };
+		CDEE21D62C7A633D0066409B /* MealItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21D52C7A633D0066409B /* MealItem.swift */; };
+		CDEE21D82C7A9C310066409B /* ItemsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21D72C7A9C310066409B /* ItemsContainer.swift */; };
+		CDEE21DA2C7AA73E0066409B /* DefaultMealsList.json in Resources */ = {isa = PBXBuildFile; fileRef = CDEE21D92C7AA73E0066409B /* DefaultMealsList.json */; };
+		CDEE21DC2C7AA98B0066409B /* MealItemsJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21DB2C7AA98B0066409B /* MealItemsJSONDecoder.swift */; };
+		CDEE21E02C7AF8E00066409B /* CreateOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21DF2C7AF8E00066409B /* CreateOrderView.swift */; };
+		CDEE21E22C7AFB120066409B /* MealItemsPreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21E12C7AFB120066409B /* MealItemsPreviewContainer.swift */; };
+		CDEE21E42C7B7B6A0066409B /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21E32C7B7B6A0066409B /* OrderItem.swift */; };
+		CDEE21E62C7BF4230066409B /* OrderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE21E52C7BF4230066409B /* OrderDetailsView.swift */; };
+		CDEE22222C7C42680066409B /* OrderMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE22212C7C42680066409B /* OrderMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD7FCC912C7ED4AF009B3BAD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CD7FCC932C7ED619009B3BAD /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		CD7FCC952C813735009B3BAD /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
 		CDEE21A42C7914980066409B /* OrderMyMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderMyMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEE21A72C7914980066409B /* OrderMyMealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMyMealApp.swift; sourceTree = "<group>"; };
 		CDEE21A92C7914980066409B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CDEE21AB2C7914980066409B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CDEE21AB2C7914980066409B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		CDEE21AD2C7914980066409B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDEE21B02C7914980066409B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDEE21B62C7914980066409B /* OrderMyMealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderMyMealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +62,16 @@
 		CDEE21C02C7914990066409B /* OrderMyMealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderMyMealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEE21C42C7914990066409B /* OrderMyMealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMyMealUITests.swift; sourceTree = "<group>"; };
 		CDEE21C62C7914990066409B /* OrderMyMealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMyMealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDEE21D32C7A60CC0066409B /* MealCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCategoryItem.swift; sourceTree = "<group>"; };
+		CDEE21D52C7A633D0066409B /* MealItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItem.swift; sourceTree = "<group>"; };
+		CDEE21D72C7A9C310066409B /* ItemsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsContainer.swift; sourceTree = "<group>"; };
+		CDEE21D92C7AA73E0066409B /* DefaultMealsList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DefaultMealsList.json; sourceTree = "<group>"; };
+		CDEE21DB2C7AA98B0066409B /* MealItemsJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItemsJSONDecoder.swift; sourceTree = "<group>"; };
+		CDEE21DF2C7AF8E00066409B /* CreateOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderView.swift; sourceTree = "<group>"; };
+		CDEE21E12C7AFB120066409B /* MealItemsPreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItemsPreviewContainer.swift; sourceTree = "<group>"; };
+		CDEE21E32C7B7B6A0066409B /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		CDEE21E52C7BF4230066409B /* OrderDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsView.swift; sourceTree = "<group>"; };
+		CDEE22212C7C42680066409B /* OrderMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +124,20 @@
 			children = (
 				CDEE21A72C7914980066409B /* OrderMyMealApp.swift */,
 				CDEE21A92C7914980066409B /* ContentView.swift */,
-				CDEE21AB2C7914980066409B /* Item.swift */,
+				CDEE21DF2C7AF8E00066409B /* CreateOrderView.swift */,
+				CDEE21E52C7BF4230066409B /* OrderDetailsView.swift */,
+				CD7FCC912C7ED4AF009B3BAD /* SettingsView.swift */,
+				CDEE21D72C7A9C310066409B /* ItemsContainer.swift */,
+				CDEE21E12C7AFB120066409B /* MealItemsPreviewContainer.swift */,
+				CDEE21AB2C7914980066409B /* Order.swift */,
+				CD7FCC952C813735009B3BAD /* Basket.swift */,
+				CDEE21E32C7B7B6A0066409B /* OrderItem.swift */,
+				CDEE21D32C7A60CC0066409B /* MealCategoryItem.swift */,
+				CDEE21D52C7A633D0066409B /* MealItem.swift */,
+				CDEE21DB2C7AA98B0066409B /* MealItemsJSONDecoder.swift */,
+				CDEE22212C7C42680066409B /* OrderMessage.swift */,
+				CD7FCC932C7ED619009B3BAD /* SettingsItem.swift */,
+				CDEE21D92C7AA73E0066409B /* DefaultMealsList.json */,
 				CDEE21AD2C7914980066409B /* Assets.xcassets */,
 				CDEE21AF2C7914980066409B /* Preview Content */,
 			);
@@ -236,6 +275,7 @@
 			files = (
 				CDEE21B12C7914980066409B /* Preview Assets.xcassets in Resources */,
 				CDEE21AE2C7914980066409B /* Assets.xcassets in Resources */,
+				CDEE21DA2C7AA73E0066409B /* DefaultMealsList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +301,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDEE21AA2C7914980066409B /* ContentView.swift in Sources */,
-				CDEE21AC2C7914980066409B /* Item.swift in Sources */,
+				CDEE21AC2C7914980066409B /* Order.swift in Sources */,
+				CDEE21E62C7BF4230066409B /* OrderDetailsView.swift in Sources */,
+				CDEE21DC2C7AA98B0066409B /* MealItemsJSONDecoder.swift in Sources */,
+				CDEE21E02C7AF8E00066409B /* CreateOrderView.swift in Sources */,
+				CDEE22222C7C42680066409B /* OrderMessage.swift in Sources */,
+				CDEE21D62C7A633D0066409B /* MealItem.swift in Sources */,
+				CDEE21D42C7A60CC0066409B /* MealCategoryItem.swift in Sources */,
+				CDEE21D82C7A9C310066409B /* ItemsContainer.swift in Sources */,
+				CD7FCC962C813735009B3BAD /* Basket.swift in Sources */,
+				CD7FCC942C7ED619009B3BAD /* SettingsItem.swift in Sources */,
+				CDEE21E42C7B7B6A0066409B /* OrderItem.swift in Sources */,
+				CDEE21E22C7AFB120066409B /* MealItemsPreviewContainer.swift in Sources */,
 				CDEE21A82C7914980066409B /* OrderMyMealApp.swift in Sources */,
+				CD7FCC922C7ED4AF009B3BAD /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

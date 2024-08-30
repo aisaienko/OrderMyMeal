@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Мясо/Рыба",
+        "mealItems": [{
+            "name": "КУРИНАЯ ГРУДКА",
+            "amount": "+- 2 lb",
+            "price": 1,
+            "mealIndex": 1
+        }, {
+            "name": "КУРИНЫЕ БЕДРА",
+            "amount": "+- 3 lb",
+            "price": 1,
+            "mealIndex": 2
+        }, {
+            "name": "КУРИНЫЕ КРЫЛЬЯ",
+            "amount": "+- 1,5 lb",
+            "price": 1,
+            "mealIndex": 3
+        }, {
+            "name": "КУРИНЫЕ НОЖКИ",
+            "amount": "+- 3 lb",
+            "price": 1,
+            "mealIndex": 4
+        }, {
+            "name": "КУРИНЫЙ ФАРШ",
+            "amount": "+- 1.5 lb",
+            "price": 1,
+            "mealIndex": 5
+        }, {
+            "name": "КУРИНАЯ ПЕЧЕНКА",
+            "amount": "16 Oz",
+            "price": 0.5,
+            "mealIndex": 6
+        }, {
+            "name": "КУБИКИ ГОВЯДИНЫ",
+            "amount": "+- 1.2 lb",
+            "price": 1,
+            "mealIndex": 7
+        }, {
+            "name": "ГОВЯЖИЙ ФАРШ",
+            "amount": "+- 1.2 lb",
+            "price": 1,
+            "mealIndex": 8
+        }, {
+            "name": "ГОВЯДИНА",
+            "amount": "+- 1.2 lb",
+            "price": 1,
+            "mealIndex": 9
+        }]
+    },
+    {
+        "name": "Польские Копчености",
+        "mealItems": [{
+            "name": "КОЛБАСА КУРИНАЯ",
+            "amount": "0,5 lb",
+            "price": 1,
+            "mealIndex": 25
+        }, {
+            "name": "КОЛБАСА ТЕЛЯТИНА и СВИНИНА",
+            "amount": "0,5 lb",
+            "price": 1,
+            "mealIndex": 26
+        }, {
+            "name": "ДОМАШНЯЯ СВИНАЯ",
+            "amount": "1 lb",
+            "price": 1,
+            "mealIndex": 27
+        }, {
+            "name": "КОПЧЕНЫЙ БЕКОН",
+            "amount": "0,5 lb",
+            "price": 1,
+            "mealIndex": 28
+        }, {
+            "name": "СЕМГА копченая - кусочком",
+            "amount": "0,5 lb",
+            "price": 1.5,
+            "mealIndex": 29
+        }]
+    }
+]
