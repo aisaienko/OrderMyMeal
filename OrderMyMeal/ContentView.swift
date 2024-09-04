@@ -65,7 +65,7 @@ struct ContentView: View {
             }
             .sheet(isPresented: $showCreateOrder, content: {
                 NavigationStack {
-                    CreateOrderView()
+                    CheckoutView(basket: Basket())
                 }
             })
             .sheet(isPresented: $showSettingsView, content: {

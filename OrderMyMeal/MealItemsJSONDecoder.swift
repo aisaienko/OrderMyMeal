@@ -16,6 +16,7 @@ struct MealItemsResponse: Decodable {
 
 struct MealCategoriesResponse: Decodable {
     let name: String
+    let index: Int
     let mealItems: [MealItemsResponse]
 }
 
