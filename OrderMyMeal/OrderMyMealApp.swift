@@ -17,7 +17,6 @@ struct OrderMyMealApp: App {
         WindowGroup {
             ContentView()
         }
-        // .modelContainer(sharedModelContainer)
         .modelContainer(ItemsContainer.create(shouldCreateDefaults: &isFirstTimeLaunch))
     }
 }

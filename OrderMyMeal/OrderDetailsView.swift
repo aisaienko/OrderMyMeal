@@ -12,7 +12,6 @@ struct OrderDetailsView: View {
     
     @Environment(\.dismiss) var dismiss
     
-    @State private var orderDetails: Order?
     @State private var copyButtonText: String = "Copy To Clipboard"
     @Bindable var order: Order
     private let pasteboard = UIPasteboard.general
@@ -47,13 +46,20 @@ struct OrderDetailsView: View {
                     ForEach(order.orderItems.sorted(by: {
                         return $0.mealIndex < $1.mealIndex
                     })) { orderItem in
-                        HStack {
-                            Text("\(orderItem.mealIndex).")
-                            Text(orderItem.name + (orderItem.amount != "" ? "\n" : "") + orderItem.amount + ", ")
-                            Spacer()
-                            Text("Q: \(orderItem.quantity), ")
-                            Text("Units: ")
-                            Text((Double(orderItem.quantity) * orderItem.price), format: .number)
+                        HStack(spacing: 10) {
+                            Text("\(orderItem.mealIndex).").font(.title3)
+                            VStack(spacing: 5) {
+                                Text(orderItem.name)
+                                    .font(.headline)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                Text(orderItem.amount)
+                                    .font(.footnote)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                            }
+                            VStack(spacing: 5) {
+                                Text("Qty: **\(orderItem.quantity)**, ")
+                                Text("Units: **\(Double(orderItem.quantity) * orderItem.price, format: .number)**")
+                            }
                         }
                     }
                 }
